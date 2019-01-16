@@ -1,0 +1,45 @@
+* {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1, h2, h3 {
+  margin: 0;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  min-height: 100vh;
+}
+
+section.landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color:#242424;
+  color: white;
+}
+
+section.landing h1 {
+  margin: 10vw;
+  text-align: center;
+  font-size: 40px;
+}
+
+section.landing h1 span {
+  color: deepskyblue;
+}
+
+section.joke {
+  background: deepskyblue;
+}
+
+section.resume {
+  background: white;
+}
+
+section.contact {
+  background: #242424;
+}
