@@ -1,8 +1,11 @@
+/* ----- GENERAL ----- */
 * {
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  color: #212529;
+  font-size: 20px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, p {
   margin: 0;
 }
 
@@ -10,60 +13,105 @@ body {
   margin: 0;
 }
 
-section {
+.container {
+  /* background-color: #ff000050; */
+  max-width: 700px;
+  margin: 200px auto;
+  padding: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+
+
+/* ----- HEADER ----- */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right,#8274c2,#2dc5fa); /* Source" https://uigradients.com/#Stellar */
   min-height: 100vh;
 }
 
-section.landing {
-  display: flex;
-   /* display: none;Test */
-  justify-content: center;
-  align-items: center;
-  /* background-color:#242424; */
-  background: linear-gradient(to right,#8274c2,#2293e4); /* Source" https://uigradients.com/#Stellar */
+header h1 {
   color: white;
-}
-
-section.landing h1 {
-  margin: 10vw;
   text-align: center;
-  font-size: 40px;
-  line-height: 60px;
+  font-size: 2.3em;
+  line-height: 1.3em;
   font-weight: 300;
 }
 
-section.landing h1 a {
+header h1 a {
   color: inherit;
+  font-size: inherit;
   text-decoration: none;
   border-bottom: 3px solid white;
 }
 
-section.joke {
-  background-image: url(images/bg.png);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 150vw;
-  /* padding: 15vh 15vw; */
+/* ----- SECTIONS ----- */
+h2 {
+  color: #2dc5fa;
+  font-size: 35px;
   text-align: center;
-  color: #111;
+  font-weight: 300;
+  margin: 60px;
+}
+
+section.joke {
+  text-align: center;
 }
 
 section.joke h2 {
-  margin: 50px 0;
+  margin-bottom: 500px 0;
+}
+
+section.joke .buttons {
+  margin-bottom: 60px;
 }
 
 section.joke button {
-  background: #2293e4;
+  background: #2dc5fa;
   color: white;
   border-radius: 10px;
   border: 0px;
   padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
 }
 
-section.resume {
-  background: #eee;
+
+section.resume .item {
+  display: flex;
+  align-items: center;
+  margin: 40px 0;
 }
 
-section.contact {
+section.resume .item img {
+  width: 60px;
+  padding-right: 25px;
+}
+
+section.resume .item h4 {
+  font-weight: normal;
+}
+
+section.resume .item p {
+  color: #777777;
+  font-weight: normal;
+}
+
+/* ----- FOOTER ----- */
+footer {
   background: #242424;
+  padding: 0;
+}
+
+footer .container {
+  margin-bottom: 0;
+}
+
+footer h2 {
+  color: white;
 }

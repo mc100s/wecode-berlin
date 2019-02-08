@@ -22,3 +22,7 @@ Import jQuery and `main.js` in the end of your `index.html` file.
 </body>
 </html>
 ```
+
+
+## Notes
+- https://www.flaticon.com/
