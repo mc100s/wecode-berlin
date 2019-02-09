@@ -4,7 +4,7 @@
 
 Hello world! Welcome to the lab where you will create and deploy online your own CV website! You can find a demo just here: https://maxence.netlify.com
 
-To start, you can download the ZIP accessible here: .........................
+To start, you can download the ZIP accessible here: https://github.com/mc100s/wecode-berlin/archive/master.zip
 
 If you need any help during this exercise, feel free to ask the help of one of the teacher in the class 😀
 
@@ -83,8 +83,18 @@ document.querySelector('#no').onclick = function () {
 
 Now, write the JavaScript to display a message on the page, for example a joke, on buttons clicks.
 
+## Bonus
+
 If you managed to finish, you can:
-- Make sure you cannot have 2 jokes at the same time.
+- Make sure you have a new joke when you click on "*Yes!*".
+- Display different messages when you click on "*No*".
+- Change some colors of the website based on the current hour.
+
+## Deployment
+1. Create an account on https://www.netlify.com
+2. Go to https://app.netlify.com/drop and drag and drop your code folder. The folder must contain `index.html`.
+3. Your website is already published! You can change the site name on the platform if you want.
+
 
 ## Resources
 - To understand what is CSS Flexbox: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
