@@ -83,7 +83,7 @@ document.querySelector('#no').onclick = function () {
 
 Now, write the JavaScript to display a message on the page, for example a joke, on buttons clicks.
 
-## Bonus
+## Bonus
 
 If you managed to finish, you can:
 - Make sure you have a new joke when you click on "*Yes!*".
