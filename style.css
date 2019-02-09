@@ -1,7 +1,9 @@
 /* ----- GENERAL ----- */
 * {
   font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-  color: #212529;
+}
+
+body {
   font-size: 20px;
 }
 
@@ -16,7 +18,7 @@ body {
 .container {
   /* background-color: #ff000050; */
   max-width: 700px;
-  margin: 200px auto;
+  margin: auto;
   padding: 15px;
 }
 
@@ -59,6 +61,11 @@ h2 {
   margin: 60px;
 }
 
+section .container {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
 section.joke {
   text-align: center;
 }
@@ -79,6 +86,7 @@ section.joke button {
   padding: 10px 20px;
   margin: 5px;
   cursor: pointer;
+  font-size: 1em;
 }
 
 
@@ -105,13 +113,40 @@ section.resume .item p {
 /* ----- FOOTER ----- */
 footer {
   background: #242424;
-  padding: 0;
+  padding-bottom: 100px;
 }
 
 footer .container {
-  margin-bottom: 0;
+  /* margin-bottom: 0; */
 }
 
 footer h2 {
+  color: white;
+}
+
+footer .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+footer .content img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-right: 20px;
+}
+
+footer .content .contact-info {
+  color: white;
+  padding: 25px;
+}
+
+footer .content .contact-info p {
+  margin-bottom: 5px;
+}
+
+footer .content .contact-info a {
   color: white;
 }
