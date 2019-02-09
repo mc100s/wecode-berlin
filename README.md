@@ -59,6 +59,8 @@ For that, create a `main.js` and import it in the end of your `index.html` file.
 Then, you have to create a file `main.js`
 
 ```js
+// Source: https://repl.it/@MaxenceBouret/js
+
 console.log("main.js file is loaded!");
 
 // Example of a function
@@ -88,16 +90,19 @@ var jokes = [
   "It takes Chuck Norris 20 minutes to watch 60 minutes."
 ];
 
+// Select the element with the id "yes"
 document.querySelector('#yes').onclick = function () {
-  // TODO: write the code of the function
   // You will have to use: document.querySelector(mySelector).innerHTML = "My new HTML"
   console.log("Yes was clicked");
+  // NEW
+  document.querySelector('#answer').innerHTML = randomElement(jokes);
 }
 
 document.querySelector('#no').onclick = function () {
-  // TODO: write the code of the function
   // You will have to use: document.querySelector(mySelector).innerHTML = "My new HTML"
   console.log("No was clicked");
+  // NEW
+  document.querySelector('#answer').innerHTML = "Sorry";
 }
 ```
 
